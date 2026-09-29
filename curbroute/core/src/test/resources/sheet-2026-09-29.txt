@@ -1,0 +1,80 @@
+Route Schedule For WSXX - Tech Name
+Stop # Station / Customer # / Address Charge Area Total Charge Total Area Call Ahead
+10 4211 Cobblestone Cr Mansfield, TX 76063
+$50.00 4.00 $50.00 4.00 CallAhead :
+Email and Call Ahead
+Cust # 9000010 Alex Sample
+(555) 010-9264 LCG - 6L Appt. 9/29/2026 6:12 AM
+20 4810 Oakview Dr Mansfield, TX 76063
+$48.96 4.00 $98.96 8.00 CallAhead :
+Cust # 9000020 Jordan Testcase
+(555) 010-4007 LCG - 6L Appt. 9/29/2026 6:29 AM
+30 4705 Fitzgerald Dr Mansfield, TX 76063
+$55.00 6.20 $153.96 14.20 CallAhead :
+Cust # 9000030 Sam And Riley Example
+(555) 010-2270 LCG - 6L Appt. 9/29/2026 6:45 AM
+40 5010 Lake Park Dr Mansfield, TX 76063
+$50.00 6.00 $203.96 20.20 CallAhead :
+Cust # 9000040 Casey And Morgan Placeholder
+(555) 010-8966 LCG - 6L Appt. 9/29/2026 7:01 AM
+50 310 Mountain Creek Ln Mansfield, TX 76063
+$55.00 9.00 $258.96 29.20 CallAhead :
+Cust # 9000050 Drew Demo
+(555) 010-5831 LCG - 6L Appt. 9/29/2026 7:16 AM
+60 4919 Copper Cove Ct Mansfield, TX 76063
+$53.00 11.00 $311.96 40.20 CallAhead :
+Cust # 9000060 Taylor Fixture
+(555) 010-1645 LCG - 6L Appt. 9/29/2026 7:32 AM
+70 306 Captains Ct Mansfield, TX 76063
+$46.19 3.50 $358.15 43.70 CallAhead :
+Cust # 9000070 Jamie Mock
+(555) 010-6548 LCG - 6L Appt. 9/29/2026 7:47 AM
+80 4909 Havenside Way Mansfield, TX 76063
+$50.00 10.00 $408.15 53.70 CallAhead :
+Cust # 9000080 Robin And Avery Longname Hyphen
+(555) 010-3166 LCG - 6L Appt. 9/29/2026 8:03 AM
+90 5005 Havenside Way Mansfield, TX 76063
+$55.00 15.00 $463.15 68.70 CallAhead :
+Cust # 9000090 Quinn Dummy
+(555) 010-7025 LCG - 6L Appt. 9/29/2026 8:18 AM
+100 5213 Cool River Ct Mansfield, TX 76063
+$51.00 9.00 $514.15 77.70 CallAhead :
+Cust # 9000100 Reese Stub
+(555) 010-0732 LCG - 6L Appt. 9/29/2026 8:33 AM
+110 5207 Cool River Ct Mansfield, TX 76063
+$89.00 8.00 $603.15 85.70 CallAhead :
+Cust # 9000110 Parker Fake
+(555) 010-0887 LCG - 6L Appt. 9/29/2026 8:48 AM
+120 5110 Shelter Point Ct Mansfield, TX 76063
+$53.00 5.50 $656.15 91.20 CallAhead :
+Cust # 9000120 Blake Proto
+(555) 010-7147 LCG - 6L Appt. 9/29/2026 9:03 AM
+130 5210 Vista Lago Way Mansfield, TX 76063
+$50.00 10.00 $706.15 101.20 CallAhead :
+Cust # 9000130 Emerson Draft
+(555) 010-5930 LCG - 6L Appt. 9/29/2026 9:19 AM
+140 5216 Havana Dr Mansfield, TX 76063
+$50.00 6.00 $756.15 107.20 CallAhead :
+Cust # 9000140 Harper Pilot
+(555) 010-7124 LCG - 6L Appt. 9/29/2026 9:34 AM
+150 2992 Cedar Bluff Dr Grand Prairie, TX 75054
+$60.00 7.40 $816.15 114.60 CallAhead :
+Cust # 9000150 Rowan Trial
+(555) 010-1921 LCG - 6L Appt. 9/29/2026 9:51 AM
+160 7584 Waterpoint St Grand Prairie, TX 75054
+$58.00 4.90 $874.15 119.50 CallAhead :
+Cust # 9000160 Sage Specimen
+(555) 010-1545 LCG - 6L Appt. 9/29/2026 10:07 AM
+170 2968 Loch Cr Grand Prairie, TX 75054
+$52.64 5.50 $926.79 125.00 CallAhead :
+Cust # 9000170 Kai And Remy Sampleton
+(555) 010-0196 LCG - 6L Appt. 9/29/2026 10:22 AM
+180 2955 Wood Lake Tr Grand Prairie, TX 75054
+$51.00 4.50 $977.79 129.50 CallAhead :
+Cust # 9000180 Ellis And Noel Testerson
+(555) 010-6005 LCG - 6L Appt. 9/29/2026 10:38 AM
+190 410 Cody Ln Mansfield, TX 76063
+$50.00 4.00 $1,027.79 133.50 CallAhead :
+Cust # 9000190 Finley Model
+(555) 010-4064 LCG - 6L Appt. 9/29/2026 10:56 AM
+9/29/2026 9/29/2026 Route Schedule For WS2

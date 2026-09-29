@@ -1,0 +1,12 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+captures/
+*.apk
+*.aab
+# CLI geocode cache (contains customer addresses - keep it off GitHub)
+.curbroute-cache.json
+out/

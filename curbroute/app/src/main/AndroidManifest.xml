@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Geocoding + routing requests -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Optional: start the route from where the truck is parked -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- We hand photo-taking to the camera app, so no CAMERA permission is needed. -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <!-- Android 11+ "package visibility": lets us check that Google Maps is installed. -->
+    <queries>
+        <package android:name="com.google.android.apps.maps" />
+    </queries>
+
+    <!-- The saved session holds customer names/addresses: keep it off cloud backups.
+         allowBackup covers Android 8-11, dataExtractionRules covers 12+. -->
+    <application
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CurbRoute">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Gives the camera app a safe place to write the photo it takes for us. -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+</manifest>

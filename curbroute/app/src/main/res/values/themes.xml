@@ -1,0 +1,6 @@
+<resources>
+    <!-- Compose draws everything; this only sets the window behind it. -->
+    <style name="Theme.CurbRoute" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <color name="launcher_background">#1B5E20</color>
+</resources>
